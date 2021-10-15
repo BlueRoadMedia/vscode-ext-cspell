@@ -1,0 +1,8 @@
+corejs
+Flexbugs
+eslintignore
+flexbox
+ABSPATH
+wppackage
+camelize
+upperize

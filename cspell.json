@@ -1,0 +1,53 @@
+{
+  "dictionaryDefinitions": [
+    {
+      "name": "wordpress",
+      "path": "./.vscode/cspell_dictionaries/wordpress.txt"
+    },
+    {
+      "name": "twig",
+      "path": "./.vscode/cspell_dictionaries/twig.txt"
+    },
+    {
+      "name": "php_extra",
+      "path": "./.vscode/cspell_dictionaries/php_extra.txt"
+    },
+    {
+      "name": "xml",
+      "path": "./.vscode/cspell_dictionaries/xml.txt"
+    },
+    {
+      "name": "js_extra",
+      "path": "./.vscode/cspell_dictionaries/js_extra.txt"
+    },
+    {
+      "name": "plaintext_extra",
+      "path": "./.vscode/cspell_dictionaries/plaintext_extra.txt"
+    }
+  ],
+
+  "languageSettings": [
+    {
+      "languageId": "php",
+      "dictionaries": ["wordpress", "php_extra"]
+    },
+    {
+      "languageId": "twig",
+      "dictionaries": ["twig", "html", "wordpress"]
+    },
+    {
+      "languageId": "xml",
+      "dictionaries": ["xml"]
+    },
+    {
+      "languageId": "javascript",
+      "dictionaries": ["js_extra"]
+    },
+    {
+      "languageId": "plaintext",
+      "dictionaries": ["plaintext_extra"]
+    }
+  ],
+
+  "words": ["Customizer"]
+}

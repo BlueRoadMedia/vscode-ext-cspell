@@ -1,0 +1,6 @@
+ruleset
+autoloader
+phpunit
+testsuite
+testsuites
+Slevomat
