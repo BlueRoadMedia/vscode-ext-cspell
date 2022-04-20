@@ -23,17 +23,36 @@
     {
       "name": "plaintext_extra",
       "path": "./.vscode/cspell_dictionaries/plaintext_extra.txt"
+    },
+    {
+      "name": "fonts_extra",
+      "path": "./.vscode/cspell_dictionaries/fonts_extra.txt"
+    },
+    {
+      "name": "html_extra",
+      "path": "./.vscode/cspell_dictionaries/html_extra.txt"
+    },
+    {
+      "name": "scss_extra",
+      "path": "./.vscode/cspell_dictionaries/scss_extra.txt"
     }
   ],
 
   "languageSettings": [
     {
       "languageId": "php",
-      "dictionaries": ["wordpress", "php_extra"]
+      "dictionaries": ["php_extra", "wordpress"]
     },
     {
       "languageId": "twig",
-      "dictionaries": ["twig", "html", "wordpress"]
+      "dictionaries": [
+        "twig",
+        "html",
+        "fonts",
+        "html_extra",
+        "fonts_extra",
+        "wordpress"
+      ]
     },
     {
       "languageId": "xml",
@@ -41,13 +60,17 @@
     },
     {
       "languageId": "javascript",
-      "dictionaries": ["js_extra"]
+      "dictionaries": ["js_extra", "html_extra"]
     },
     {
       "languageId": "plaintext",
       "dictionaries": ["plaintext_extra"]
+    },
+    {
+      "languageId": "scss",
+      "dictionaries": ["scss_extra"]
     }
   ],
 
-  "words": ["Customizer"]
+  "words": ["Mirko", "Pilic", "blueroadmedia", "Customizer", "multisite"]
 }

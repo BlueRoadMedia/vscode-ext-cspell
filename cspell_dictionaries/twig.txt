@@ -2,3 +2,6 @@ endfor
 srcset
 endset
 endmacro
+flexbox
+alignfull
+alignwide

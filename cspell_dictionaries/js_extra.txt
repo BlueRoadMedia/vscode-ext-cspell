@@ -6,3 +6,12 @@ ABSPATH
 wppackage
 camelize
 upperize
+frctl
+entrypoints
+runtimechunk
+splitchunks
+prettierignore
+mkcert
+tanem
+alignfull
+alignwide
