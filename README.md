@@ -8,7 +8,7 @@ Custom dictionaries settings for [_Code Spell Checker_](https://marketplace.visu
 
 Inside an empty _.vscode_ directory, which is placed in a project root directory, run the following on a command line:
 
-    git clone --depth 1 git@github.com:BlueRoadMedia/vscode-ext-cspell.git . && rm -rf .git && rm -rf .gitignore
+    git clone --depth 1 git@github.com:NeoplantaMedia/vscode-ext-cspell.git . && rm -rf .git && rm -rf .gitignore
 
 Inside the _.vscode_ directory, in the _cspell_dictionaries_ directory, add new words to the already defined dictionaries or [add a new dictionary](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker#project-workspace-dictionary-using-cspell.json) and then register it under _dictionaryDefinitions_ entry, in the _cspell.json_ file.
 

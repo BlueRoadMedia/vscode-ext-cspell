@@ -68,3 +68,4 @@ ghostscript
 SAPI
 upload_max_filesize
 chgrp
+dport
