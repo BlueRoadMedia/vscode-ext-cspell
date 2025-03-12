@@ -2,109 +2,67 @@
   "dictionaryDefinitions": [
     {
       "name": "css_extra",
-      "path": "./.vscode/cspell_dictionaries/css_extra.txt"
+      "path": "./cspell_dictionaries/css_extra.txt"
     },
     {
       "name": "fonts_extra",
-      "path": "./.vscode/cspell_dictionaries/fonts_extra.txt"
+      "path": "./cspell_dictionaries/fonts_extra.txt"
     },
     {
       "name": "html_extra",
-      "path": "./.vscode/cspell_dictionaries/html_extra.txt"
+      "path": "./cspell_dictionaries/html_extra.txt"
     },
     {
       "name": "ini",
-      "path": "./.vscode/cspell_dictionaries/ini.txt"
+      "path": "./cspell_dictionaries/ini.txt"
     },
     {
       "name": "provisioning",
-      "path": "./.vscode/cspell_dictionaries/provisioning.txt"
+      "path": "./cspell_dictionaries/provisioning.txt"
     },
     {
       "name": "php_extra",
-      "path": "./.vscode/cspell_dictionaries/php_extra.txt"
+      "path": "./cspell_dictionaries/php_extra.txt"
     },
     {
       "name": "wordpress",
-      "path": "./.vscode/cspell_dictionaries/wordpress.txt"
+      "path": "./cspell_dictionaries/wordpress.txt"
     }
   ],
-  // Global dictionaries
-  "dictionaries": [],
-  // Per language dictionaries
-  // https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker#dictionaries
+
+  "dictionaries": ["provisioning", "wordpress"],
+
   "languageSettings": [
     {
       "languageId": "css",
-      "dictionaries": ["wordpress"]
+      "dictionaries": ["css_extra"]
     },
     {
       "languageId": "html",
       "dictionaries": ["html_extra"]
     },
     {
-      "languageId": "ignore",
-      "dictionaries": ["provisioning", "wordpress"]
-    },
-    {
       "languageId": "ini",
-      "dictionaries": ["ini", "provisioning", "wordpress"]
+      "dictionaries": ["ini"]
     },
     {
       "languageId": "javascript",
-      "dictionaries": [
-        "provisioning",
-        "wordpress",
-        "css",
-        "fonts",
-        "fonts_extra",
-        "css_extra",
-        "html_extra"
-      ]
-    },
-    {
-      "languageId": "json",
-      "dictionaries": ["wordpress"]
-    },
-    {
-      "languageId": "markdown",
-      "dictionaries": ["provisioning", "wordpress"]
-    },
-    {
-      "languageId": "neon",
-      "dictionaries": ["wordpress", "provisioning"]
+      "dictionaries": ["css", "fonts", "fonts_extra", "css_extra", "html_extra"]
     },
     {
       "languageId": "php",
-      "dictionaries": [
-        "wordpress",
-        "php_extra",
-        "provisioning",
-        "fonts",
-        "fonts_extra"
-      ]
-    },
-    {
-      "languageId": "plaintext",
-      "dictionaries": ["wordpress", "provisioning"]
+      "dictionaries": ["php_extra", "fonts", "fonts_extra"]
     },
     {
       "languageId": "scss",
-      "dictionaries": ["wordpress", "provisioning", "fonts_extra", "css_extra"]
+      "dictionaries": ["fonts_extra", "css_extra"]
     },
     {
       "languageId": "yaml",
-      "dictionaries": ["provisioning", "php_extra", "wordpress"]
-    },
-    {
-      "languageId": "dockerfile",
-      "dictionaries": ["provisioning", "wordpress"]
-    },
-    {
-      "languageId": "properties",
-      "dictionaries": ["provisioning"]
+      "dictionaries": ["php_extra"]
     }
   ],
+
   "enableFiletypes": [
     "dockerfile",
     "dotenv",
@@ -112,7 +70,6 @@
     "ini",
     "neon",
     "properties",
-    "twig",
     "xml"
   ]
 }
